@@ -1,0 +1,17 @@
+{
+	"short-name":" react app",
+	"name":"Creat React App ",
+	"Icons":[
+		{
+			"src":"favicon.ico",
+			"sizes":"54x54 22x22 14x14 10x10",
+			"type":"image/ْx-icon"
+		}
+
+	],
+	"start_url":"./index.html",
+	"background_color":"#ffffff",
+	"display":"standalone",
+	"scope":"/react app/",
+	"theme_color":"#000000"
+}
