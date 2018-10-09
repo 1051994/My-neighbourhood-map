@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="Someport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#000000">
+    <!--
+    	manifest provides metadata when web app is added to the home screen prompt on Android. https://developers.google.com/web/fundamentals/web-app-manifest/ -->
+
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+<link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+<link rel="stylesheet" href="%PUBLIC_URL%/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--
+use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+-->
+<title> My neighbourhood Map </title>
+</head>
+<body>
+  <noscript>
+    you need to enable javaScript to run this app.
+  </noscript>
+   <div id="root"></div>
+  <script type="text/javascript">
+      function gm_authFailure() { 
+        alert(`Google Maps Authentication Failed! Map Will not load correctly
+              Please Check your API License Key`);
+      // here define authentication failed message     
+     };
+    </script>
+</body>
+</html>
